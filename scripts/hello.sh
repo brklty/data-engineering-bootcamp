@@ -1,8 +1,10 @@
-#!/bin/bash\
-nname=$1\
-ncity=$2\
-necho "Number of arguments: §#"\
-necho "Name: $name"\
-necho "City: $city"\
-necho "All args: $@"\
-n
+#!/bin/bash
+
+name=$1
+city=$2
+
+echo "Number of arguments: $#"
+echo "Name: $name"
+echo "City: $city"
+echo "All args: $@"
+echo "Current user: $USER"
